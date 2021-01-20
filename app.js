@@ -8,6 +8,9 @@ const rock_div = document.getElementById("rock");
 const paper_div = document.getElementById("paper");
 const scissor_div = document.getElementById("scissor");
 
+/**
+ * @description will return random choice
+ */
 function getComputerChoice(){
     const choices = ['rock', 'paper', 'scissor'];
     const randomNumber = Math.floor(Math.random()*3);
